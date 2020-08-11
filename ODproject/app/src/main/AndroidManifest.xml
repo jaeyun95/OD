@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cho.odproject">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_odlauncher"
+        android:label="오디?"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".LocationListActivity" />
+        <activity
+            android:name=".EditLocationActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AddLocationActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MapActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDRFa0nRnw10o7f7PQlBhQt2EYnEVg3izw" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MypageActivity"></activity>
+    </application>
+
+</manifest>

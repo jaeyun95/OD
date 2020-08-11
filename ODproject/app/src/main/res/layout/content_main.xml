@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:background="#FF4646"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/category_list"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="장소리스트"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bt_setting"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="설정"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bt_map"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="지도"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/bt_mypage"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="마이페이지"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="489dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/background_od"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

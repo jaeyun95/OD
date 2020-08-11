@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_category_list"
+            android:icon="@drawable/ic_room_black_24dp"
+            android:title="장소리스트" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_explore_black_24dp"
+            android:title="지도" />
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="마이페이지" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="설정" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_reply_black_24dp"
+            android:title="Logout" />
+    </group>
+</menu>
