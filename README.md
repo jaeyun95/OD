@@ -5,7 +5,7 @@
 ### 팀원  
 * #### [jaeyun95](https://github.com/jaeyun95)    
 * #### [Heezzan](https://github.com/Heezzan)   
-* #### [ChoYS96](https://github.com/cyssu73)
+* #### [cyssu73](https://github.com/cyssu73)
 
 ![OD](/image/OD.jpg)   
 
